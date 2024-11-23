@@ -112,6 +112,11 @@ WHERE id_entrega = 1;
   SELECT COUNT(*) AS total_pendentes FROM entregas WHERE status = 'Pendente';
   ```
 
+  - **Contar entregas que sairam para serem entregues:**
+  ```sql
+  SELECT COUNT(*) AS total_pendentes FROM entregas WHERE status = 'Saiu para entrega';
+  ```
+
 ---
 
 
